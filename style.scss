@@ -1,0 +1,817 @@
+//colores
+
+$color-principal: rgb(16, 16, 48);
+$color-stock-on: rgb(0, 128, 0);
+$color-stock-low: rgb(226, 167, 17);
+$color-stock-off: rgb(255, 0, 0);
+
+//reseteo universal
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// navbar 
+
+.navbar {
+    background-color: $color-principal;
+    margin-bottom: 0px;
+
+    .nav-item a {
+        color: white;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+
+        &:hover {
+            color: grey;
+            background-color: rgba(53, 58, 56, 0.493);
+            border-radius: 5px;
+        }
+    }
+}
+
+.logo-scroll {
+    width: 120px !important;
+    height: 37px !important;
+}
+
+// carousel
+
+.carousel{
+margin-top: 75px;
+}
+
+.carousel-control-prev {
+    padding-right: 20px;
+}
+
+.carousel-control-next {
+    padding-left: 20px;
+}
+
+.carousel-inner {
+    padding-bottom: 15px;
+}
+
+// contenedor categorias principales 
+
+section {
+    width: 100%;
+    background-color: $color-principal;
+    margin-top: -16px;
+
+    .nav-item a {
+        color: white;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+
+        &:hover {
+            color: grey;
+            background-color: rgba(53, 58, 56, 0.493);
+            border-radius: 5px;
+        }
+    }
+}
+
+.title-categoria {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+}
+
+.categoria-p {
+    padding-bottom: 20px;
+}
+
+// contenedor informacion 
+
+.informacion {
+    background-color: rgba(86, 86, 86, 0.1);
+
+    i {
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+.title-info {
+    color: grey;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-top: 3px;
+}
+
+.sub-title-info {
+    color: grey;
+    font-size: 13px;
+    padding-bottom: 13px;
+}
+
+// bloque elemento modificador
+
+.title-dest {
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #000;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.card {
+    width: 190px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: 0;
+    margin-bottom: 15px;
+
+    &:hover {
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.card__img {
+    @extend .card-finish;
+    background-image: url(img/productos/callisto-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-god {
+    @extend .card-finish;
+    background-image: url(img/productos/god-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-gta {
+    @extend .card-finish;
+    background-image: url(img/productos/gta-v-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-hog {
+    @extend .card-finish;
+    background-image: url(img/productos/hogwarts-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-re4 {
+    @extend .card-finish;
+    background-image: url(img/productos/re4-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__title {
+    background-color: white;
+    font-size: 13px;
+    margin-left: 8px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card__sub-title {
+    font-size: 10px;
+    background-color: white;
+    margin-left: 8px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    margin-bottom: 5px;
+}
+
+.card__stock {
+    @extend .stock-finish;
+    color: $color-stock-on;
+}
+
+.card__stock-low {
+    @extend .stock-finish;
+    color: $color-stock-low;
+}
+
+.card__stock-off {
+    @extend .stock-finish;
+    color: $color-stock-off;
+}
+
+.card__price {
+    background-color: white;
+    font-size: 12px;
+    margin-left: 8px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+// contenedor informatico sobre material
+
+.contenedor-gaming {
+    margin-top: 50px;
+}
+
+.title-gaming {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.sub-title-gaming {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+// contenedor de imagen con información de nosotros 
+
+.container-nosotros {
+    background-image: url(img/nosotros.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.text-nosotros {
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 120px;
+}
+
+// contenedor de productos de forma en columna (bloque elemento modificador)
+
+.title-dest-2 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.line-title-dest-2 {
+    width: 250px;
+}
+
+.card-c {
+    width: 290px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: 2px;
+    margin-bottom: 20px;
+
+    &:hover {
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.card__img-c-uncha {
+    @extend .card-c-finish;
+    background-image: url(img/productos/uncharted-collection-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-death {
+    @extend .card-c-finish;
+    background-image: url(img/productos/death-stranding-ps4.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-elden {
+    @extend .card-c-finish;
+    background-image: url(img/productos/elden-ring-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-returnal {
+    @extend .card-c-finish;
+    background-image: url(img/productos/returnal-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-gotham {
+    @extend .card-c-finish;
+    background-image: url(img/productos/gotham-knight-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-mk1 {
+    @extend .card-c-finish;
+    background-image: url(img/productos/mortal-kombat-1-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-atomic {
+    @extend .card-c-finish;
+    background-image: url(img/productos/atomic-heart-ps4.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-blood {
+    @extend .card-c-finish;
+    background-image: url(img/productos/bloodborne-goty-ps4.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-diablo {
+    @extend .card-c-finish;
+    background-image: url(img/productos/diablo-iv-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-tlous {
+    @extend .card-c-finish;
+    background-image: url(img/productos/thelastofus-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-jw2 {
+    @extend .card-c-finish;
+    background-image: url(img/productos/jurassic-world-evolution-2-ps4.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-c-ffxvi {
+    @extend .card-c-finish;
+    background-image: url(img/productos/final-fantasy-xvi-ps5.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__title-c {
+    background-color: white;
+    font-size: 13px;
+    margin-right: 8px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card__sub-title-c {
+    font-size: 10px;
+    background-color: white;
+    margin-right: 10px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    margin-bottom: 5px;
+}
+
+.card__stock-c {
+    @extend .stock-finish;
+    color: $color-stock-on;
+}
+
+.card__stock-low-c {
+    @extend .stock-finish;
+    color: $color-stock-low;
+}
+
+.card__stock-off-c {
+    @extend .stock-finish;
+    color: $color-stock-off;
+}
+
+.card__price-c {
+    background-color: white;
+    font-size: 12px;
+    margin-left: 8px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+// boton bajo productos 
+
+.boton-productos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+// footer final de las paginas
+
+footer {
+    background-color: $color-principal;
+
+    .footer-f {
+        height: 60px;
+        width: 100%;
+    }
+
+    i {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.title-footer {
+    font-size: 15px;
+}
+
+// bem | accesorios.html
+
+.title-pages{
+    margin-top: 100px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.card__img-jxboxw {
+    @extend .card-j-finish;
+    background-image: url(img/accesorios/xbox-classic.jpg);
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-jxboxr {
+    @extend .card-j-finish;
+    height: 100px !important;
+    width: 141px !important;
+    background-image: url(img/accesorios/xbox-red.jpg);
+    margin-bottom: 10px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-jps5w {
+    @extend .card-j-finish;
+    height: 100px !important;
+    width: 140px !important;
+    background-image: url(img/accesorios/ps5-white.jpg);
+    margin-bottom: 10px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-jxboxg {
+    @extend .card-j-finish;
+    height: 100px !important;
+    width: 141px !important;
+    background-image: url(img/accesorios/xbox-gl.jpg);
+    margin-bottom: 5px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-jlogif {
+    @extend .card-j-finish;
+    height: 92px !important;
+    width: 140px !important;
+    background-image: url(img/accesorios/logitech-f710.jpg);
+    margin-bottom: 13px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-jps5b {
+    @extend .card-j-finish;
+    height: 92px !important;
+    width: 140px !important;
+    background-image: url(img/accesorios/ps5-black.jpg);
+    margin-bottom: 13px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-jxboxl {
+    @extend .card-j-finish;
+    height: 100px !important;
+    width: 140px !important;
+    background-image: url(img/accesorios/xbox-lunar.jpg);
+    margin-bottom: 6px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-jps4b {
+    @extend .card-j-finish;
+    height: 88px !important;
+    width: 140px !important;
+    background-image: url(img/accesorios/ps4-black.jpg);
+    margin-bottom: 19px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-jxboxb {
+    @extend .card-j-finish;
+    height: 92px !important;
+    width: 140px !important;
+    background-image: url(img/accesorios/xbox-blue.jpg);
+    margin-bottom: 14px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-jlogig {
+    @extend .card-j-finish;
+    height: 87px !important;
+    width: 140px !important;
+    background-image: url(img/accesorios/logitech-f310.jpg);
+    margin-bottom: 18px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+// bem | consolas.html
+
+.card__img-cps4 {
+    @extend .card-j-finish;
+    height: 140px !important;
+    width: 140px !important;
+    background-image: url(img/consolas/playstation-4.png);
+    margin-bottom: 0px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-cnintendo {
+    @extend .card-j-finish;
+    height: 140px !important;
+    width: 140px !important;
+    background-image: url(img/consolas/nintendo-switch.png);
+    margin-bottom: 0px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-cps3 {
+    @extend .card-j-finish;
+    height: 118px !important;
+    width: 140px !important;
+    background-image: url(img/consolas/playstation-3.png);
+    margin-bottom: 20px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-cxboxsx {
+    @extend .card-j-finish;
+    height: 138px !important;
+    width: 140px !important;
+    background-image: url(img/consolas/xbox-series-x.jpg);
+    margin-bottom: 3px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-cxboxss {
+    @extend .card-j-finish;
+    height: 138px !important;
+    width: 140px !important;
+    background-image: url(img/consolas/xbox-series-s.jpg);
+    margin-bottom: 1px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.card__img-cps5 {
+    @extend .card-j-finish;
+    height: 113px !important;
+    width: 140px !important;
+    background-image: url(img/consolas/ps5-capa.jpg);
+    margin-bottom: 30px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+// contacto.html
+
+.title-contacto {
+    margin-bottom: 130px;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+
+    video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+
+.bg-contacto {
+    height: 400px;
+    width: 100%;
+    background-color: azure;
+}
+
+// difusion.html
+
+.title-difusion {
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;    
+}
+
+//funciones para la pagina
+
+// extend para llamar card's terminadas
+
+.card-finish {
+    height: 180px;
+    width: 140px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.card-c-finish {
+    float: left;
+    height: 130px;
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.card-j-finish {
+    height: 110px;
+    width: 140px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.stock-finish {
+    background-color: white;
+    font-size: 12px;
+    margin-left: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+// personalizacion de scroll bar 
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: grey;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.671);
+}
+
+// boton de what's app 
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: #25d366;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 25px 10px;
+    border-radius: 100px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background-color: #25d365c4;
+    }
+}

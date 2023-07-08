@@ -1,0 +1,690 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(16, 16, 48);
+  margin-bottom: 0px;
+}
+.navbar .nav-item a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+.navbar .nav-item a:hover {
+  color: grey;
+  background-color: rgba(53, 58, 56, 0.493);
+  border-radius: 5px;
+}
+
+.logo-scroll {
+  width: 120px !important;
+  height: 37px !important;
+}
+
+.carousel {
+  margin-top: 75px;
+}
+
+.carousel-control-prev {
+  padding-right: 20px;
+}
+
+.carousel-control-next {
+  padding-left: 20px;
+}
+
+.carousel-inner {
+  padding-bottom: 15px;
+}
+
+section {
+  width: 100%;
+  background-color: rgb(16, 16, 48);
+  margin-top: -16px;
+}
+section .nav-item a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+section .nav-item a:hover {
+  color: grey;
+  background-color: rgba(53, 58, 56, 0.493);
+  border-radius: 5px;
+}
+
+.title-categoria {
+  color: white;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-top: 20px;
+}
+
+.categoria-p {
+  padding-bottom: 20px;
+}
+
+.informacion {
+  background-color: rgba(86, 86, 86, 0.1);
+}
+.informacion i {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.title-info {
+  color: grey;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding-top: 3px;
+}
+
+.sub-title-info {
+  color: grey;
+  font-size: 13px;
+  padding-bottom: 13px;
+}
+
+.title-dest {
+  font-size: 18px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.card {
+  width: 190px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border: 0;
+  margin-bottom: 15px;
+}
+.card:hover {
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card__img {
+  background-image: url(img/productos/callisto-ps5.jpg);
+}
+.card__img:hover {
+  transform: scale(0.9);
+}
+
+.card__img-god {
+  background-image: url(img/productos/god-ps5.jpg);
+}
+.card__img-god:hover {
+  transform: scale(0.9);
+}
+
+.card__img-gta {
+  background-image: url(img/productos/gta-v-ps5.jpg);
+}
+.card__img-gta:hover {
+  transform: scale(0.9);
+}
+
+.card__img-hog {
+  background-image: url(img/productos/hogwarts-ps5.jpg);
+}
+.card__img-hog:hover {
+  transform: scale(0.9);
+}
+
+.card__img-re4 {
+  background-image: url(img/productos/re4-ps5.jpg);
+}
+.card__img-re4:hover {
+  transform: scale(0.9);
+}
+
+.card__title {
+  background-color: white;
+  font-size: 13px;
+  margin-left: 8px;
+  font-family: "Wix Madefor Display", sans-serif;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card__sub-title {
+  font-size: 10px;
+  background-color: white;
+  margin-left: 8px;
+  font-family: "Wix Madefor Display", sans-serif;
+  margin-bottom: 5px;
+}
+
+.card__stock {
+  color: rgb(0, 128, 0);
+}
+
+.card__stock-low {
+  color: rgb(226, 167, 17);
+}
+
+.card__stock-off {
+  color: rgb(255, 0, 0);
+}
+
+.card__price {
+  background-color: white;
+  font-size: 12px;
+  margin-left: 8px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.contenedor-gaming {
+  margin-top: 50px;
+}
+
+.title-gaming {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.sub-title-gaming {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.container-nosotros {
+  background-image: url(img/nosotros.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-nosotros a {
+  text-decoration: none;
+}
+
+.text-nosotros {
+  color: white;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding-top: 120px;
+}
+
+.title-dest-2 {
+  font-size: 16px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.line-title-dest-2 {
+  width: 250px;
+}
+
+.card-c {
+  width: 290px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border: 2px;
+  margin-bottom: 20px;
+}
+.card-c:hover {
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card__img-c-uncha {
+  background-image: url(img/productos/uncharted-collection-ps5.jpg);
+}
+.card__img-c-uncha:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-death {
+  background-image: url(img/productos/death-stranding-ps4.jpg);
+}
+.card__img-c-death:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-elden {
+  background-image: url(img/productos/elden-ring-ps5.jpg);
+}
+.card__img-c-elden:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-returnal {
+  background-image: url(img/productos/returnal-ps5.jpg);
+}
+.card__img-c-returnal:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-gotham {
+  background-image: url(img/productos/gotham-knight-ps5.jpg);
+}
+.card__img-c-gotham:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-mk1 {
+  background-image: url(img/productos/mortal-kombat-1-ps5.jpg);
+}
+.card__img-c-mk1:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-atomic {
+  background-image: url(img/productos/atomic-heart-ps4.jpg);
+}
+.card__img-c-atomic:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-blood {
+  background-image: url(img/productos/bloodborne-goty-ps4.jpg);
+}
+.card__img-c-blood:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-diablo {
+  background-image: url(img/productos/diablo-iv-ps5.jpg);
+}
+.card__img-c-diablo:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-tlous {
+  background-image: url(img/productos/thelastofus-ps5.jpg);
+}
+.card__img-c-tlous:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-jw2 {
+  background-image: url(img/productos/jurassic-world-evolution-2-ps4.jpg);
+}
+.card__img-c-jw2:hover {
+  transform: scale(0.9);
+}
+
+.card__img-c-ffxvi {
+  background-image: url(img/productos/final-fantasy-xvi-ps5.jpg);
+}
+.card__img-c-ffxvi:hover {
+  transform: scale(0.9);
+}
+
+.card__title-c {
+  background-color: white;
+  font-size: 13px;
+  margin-right: 8px;
+  font-family: "Wix Madefor Display", sans-serif;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card__sub-title-c {
+  font-size: 10px;
+  background-color: white;
+  margin-right: 10px;
+  font-family: "Wix Madefor Display", sans-serif;
+  margin-bottom: 5px;
+}
+
+.card__stock-c {
+  color: rgb(0, 128, 0);
+}
+
+.card__stock-low-c {
+  color: rgb(226, 167, 17);
+}
+
+.card__stock-off-c {
+  color: rgb(255, 0, 0);
+}
+
+.card__price-c {
+  background-color: white;
+  font-size: 12px;
+  margin-left: 8px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.boton-productos {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: rgb(16, 16, 48);
+}
+footer .footer-f {
+  height: 60px;
+  width: 100%;
+}
+footer i {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title-footer {
+  font-size: 15px;
+}
+
+.title-pages {
+  margin-top: 100px;
+  font-size: 16px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.card__img-jxboxw {
+  background-image: url(img/accesorios/xbox-classic.jpg);
+}
+.card__img-jxboxw:hover {
+  transform: scale(0.9);
+}
+
+.card__img-jxboxr {
+  height: 100px !important;
+  width: 141px !important;
+  background-image: url(img/accesorios/xbox-red.jpg);
+  margin-bottom: 10px;
+}
+.card__img-jxboxr:hover {
+  transform: scale(0.9);
+}
+
+.card__img-jps5w {
+  height: 100px !important;
+  width: 140px !important;
+  background-image: url(img/accesorios/ps5-white.jpg);
+  margin-bottom: 10px;
+}
+.card__img-jps5w:hover {
+  transform: scale(0.9);
+}
+
+.card__img-jxboxg {
+  height: 100px !important;
+  width: 141px !important;
+  background-image: url(img/accesorios/xbox-gl.jpg);
+  margin-bottom: 5px;
+}
+.card__img-jxboxg:hover {
+  transform: scale(0.9);
+}
+
+.card__img-jlogif {
+  height: 92px !important;
+  width: 140px !important;
+  background-image: url(img/accesorios/logitech-f710.jpg);
+  margin-bottom: 13px;
+}
+.card__img-jlogif:hover {
+  transform: scale(0.9);
+}
+
+.card__img-jps5b {
+  height: 92px !important;
+  width: 140px !important;
+  background-image: url(img/accesorios/ps5-black.jpg);
+  margin-bottom: 13px;
+}
+.card__img-jps5b:hover {
+  transform: scale(0.9);
+}
+
+.card__img-jxboxl {
+  height: 100px !important;
+  width: 140px !important;
+  background-image: url(img/accesorios/xbox-lunar.jpg);
+  margin-bottom: 6px;
+}
+.card__img-jxboxl:hover {
+  transform: scale(0.9);
+}
+
+.card__img-jps4b {
+  height: 88px !important;
+  width: 140px !important;
+  background-image: url(img/accesorios/ps4-black.jpg);
+  margin-bottom: 19px;
+}
+.card__img-jps4b:hover {
+  transform: scale(0.9);
+}
+
+.card__img-jxboxb {
+  height: 92px !important;
+  width: 140px !important;
+  background-image: url(img/accesorios/xbox-blue.jpg);
+  margin-bottom: 14px;
+}
+.card__img-jxboxb:hover {
+  transform: scale(0.9);
+}
+
+.card__img-jlogig {
+  height: 87px !important;
+  width: 140px !important;
+  background-image: url(img/accesorios/logitech-f310.jpg);
+  margin-bottom: 18px;
+}
+.card__img-jlogig:hover {
+  transform: scale(0.9);
+}
+
+.card__img-cps4 {
+  height: 140px !important;
+  width: 140px !important;
+  background-image: url(img/consolas/playstation-4.png);
+  margin-bottom: 0px;
+}
+.card__img-cps4:hover {
+  transform: scale(0.9);
+}
+
+.card__img-cnintendo {
+  height: 140px !important;
+  width: 140px !important;
+  background-image: url(img/consolas/nintendo-switch.png);
+  margin-bottom: 0px;
+}
+.card__img-cnintendo:hover {
+  transform: scale(0.9);
+}
+
+.card__img-cps3 {
+  height: 118px !important;
+  width: 140px !important;
+  background-image: url(img/consolas/playstation-3.png);
+  margin-bottom: 20px;
+}
+.card__img-cps3:hover {
+  transform: scale(0.9);
+}
+
+.card__img-cxboxsx {
+  height: 138px !important;
+  width: 140px !important;
+  background-image: url(img/consolas/xbox-series-x.jpg);
+  margin-bottom: 3px;
+}
+.card__img-cxboxsx:hover {
+  transform: scale(0.9);
+}
+
+.card__img-cxboxss {
+  height: 138px !important;
+  width: 140px !important;
+  background-image: url(img/consolas/xbox-series-s.jpg);
+  margin-bottom: 1px;
+}
+.card__img-cxboxss:hover {
+  transform: scale(0.9);
+}
+
+.card__img-cps5 {
+  height: 113px !important;
+  width: 140px !important;
+  background-image: url(img/consolas/ps5-capa.jpg);
+  margin-bottom: 30px;
+}
+.card__img-cps5:hover {
+  transform: scale(0.9);
+}
+
+.title-contacto {
+  margin-bottom: 130px;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.bg-contacto {
+  height: 400px;
+  width: 100%;
+  background-color: azure;
+}
+
+.title-difusion {
+  font-size: 16px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-finish, .card__img, .card__img-god, .card__img-gta, .card__img-hog, .card__img-re4 {
+  height: 180px;
+  width: 140px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.card-c-finish, .card__img-c-uncha, .card__img-c-death, .card__img-c-elden, .card__img-c-returnal, .card__img-c-gotham, .card__img-c-mk1, .card__img-c-atomic, .card__img-c-blood, .card__img-c-diablo, .card__img-c-tlous, .card__img-c-jw2, .card__img-c-ffxvi {
+  float: left;
+  height: 130px;
+  width: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.card-j-finish, .card__img-jxboxw, .card__img-jxboxr, .card__img-jps5w, .card__img-jxboxg, .card__img-jlogif, .card__img-jps5b, .card__img-jxboxl, .card__img-jps4b, .card__img-jxboxb, .card__img-jlogig, .card__img-cps4, .card__img-cnintendo, .card__img-cps3, .card__img-cxboxsx, .card__img-cxboxss, .card__img-cps5 {
+  height: 110px;
+  width: 140px;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.stock-finish, .card__stock, .card__stock-low, .card__stock-off, .card__stock-c, .card__stock-low-c, .card__stock-off-c {
+  background-color: white;
+  font-size: 12px;
+  margin-left: 8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(128, 128, 128, 0.671);
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  background-color: #25d366;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 25px 10px;
+  border-radius: 100px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.whatsapp-button:hover {
+  background-color: rgba(37, 211, 101, 0.768627451);
+}
+
+/*# sourceMappingURL=style.css.map */
