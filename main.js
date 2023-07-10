@@ -2,7 +2,7 @@
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     const logo = document.querySelector('#logo');
-    const scrollThreshold = 110;
+    const scrollThreshold = 80;
 
     if (window.scrollY > scrollThreshold) {
         navbar.classList.add('navbar-scroll');

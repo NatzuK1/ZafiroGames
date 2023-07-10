@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="¡Encuentra los mejores videojuegos para PS4, PS5, Xbox y Nintendo Switch en nuestra tienda! Amplia selección de títulos, desde los clásicos hasta los últimos lanzamientos!">
+        content="¡Ponte en contacto con nosotros a través de nuestra página de contacto para cualquier consulta, sugerencia o colaboración relacionada con videojuegos. Estamos aquí para ayudarte y brindarte la mejor experiencia posible!">
     <meta name="keywords"
-        content="venta de videojuegos, videojuegos PS4, videojuegos PS5, videojuegos Xbox, videojuegos Nintendo Switch, comprar videojuegos, tienda de videojuegos, juegos para consolas, tienda en línea de videojuegos, últimos lanzamientos, clásicos de videojuegos">
+        content="Contacto,Consultas de videojuegos,Soporte de videojuegos,Comunicación de usuarios,Equipo de soporte,Asistencia de videojuegos,Formulario de contacto">
     <title>Zafiro Games | Contacto</title>
     <link rel="icon" href="../img/icons.ico">
     <!-- font nav bar -->
@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <!-- navbar | linea en scss: 9 -->
+    <!-- navbar | linea en scss: 17 -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="../index.html">
@@ -47,8 +47,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html">Inicio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/productos.html">Productos</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu bg-zafiro" aria-labelledby="productosDropdown">
+                            <li><a class="dropdown-item" href="../pages/accesorios.html">Accesorios</a></li>
+                            <li><a class="dropdown-item" href="../pages/consolas.html">Consolas</a></li>
+                            <li><a class="dropdown-item" href="../pages/videojuegos-ps4.html">Videojuegos PS4</a></li>
+                            <li><a class="dropdown-item" href="../pages/videojuegos-ps5.html">Videojuegos PS5</a></li>
+                            <li><a class="dropdown-item" href="../pages/videojuegos-nint.html">Videojuegos Nintendo</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/contacto.html">Contacto</a>
@@ -59,9 +68,9 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> 
     <!-- contenedor contacto | linea en scss: -->
-    <div class="container" data-aos="flip-down">
+    <div class="container" data-aos="zoom-in">
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <h1 class="title-contacto">Contacto</h1>
@@ -94,7 +103,7 @@
             </div>
         </div>
     </div>
-    <!-- video realizado por mi xd -->
+    <!-- video realizado por mi =) -->
     <div class="video-background">
         <video autoplay loop muted>
             <source src="../video/video.mp4" type="video/mp4">

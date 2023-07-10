@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="¡Encuentra los mejores videojuegos para PS4, PS5, Xbox y Nintendo Switch en nuestra tienda! Amplia selección de títulos, desde los clásicos hasta los últimos lanzamientos!">
-    <meta name="keywords" content="venta de videojuegos, videojuegos PS4, videojuegos PS5, videojuegos Xbox, videojuegos Nintendo Switch, comprar videojuegos, tienda de videojuegos, juegos para consolas, tienda en línea de videojuegos, últimos lanzamientos, clásicos de videojuegos">    
+    <meta name="keywords" content="Venta de videojuegos,Videojuegos PS4,Videojuegos PS5,Videojuegos Xbox,Videojuegos Nintendo Switch, Comprar videojuegos,Tienda de videojuegos,Juegos para consolas,Últimos lanzamientos,Clásicos de videojuegos">    
     <title>Zafiro Games | Tienda Gamer</title>
     <link rel="icon" href="./img/icons.ico"> 
     <!-- font nav bar -->
@@ -33,8 +33,8 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"> <!-- archivo css -->
 </head>
-<body>
-    <!-- navbar | linea en scss: 16 -->
+<body>   
+    <!-- navbar | linea en scss: 16 -->    
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="./index.html">
@@ -49,8 +49,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./index.html">Inicio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/productos.html">Productos</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu bg-zafiro" aria-labelledby="productosDropdown">
+                            <li><a class="dropdown-item" href="./pages/accesorios.html">Accesorios</a></li>
+                            <li><a class="dropdown-item" href="./pages/consolas.html">Consolas</a></li>
+                            <li><a class="dropdown-item" href="./pages/videojuegos-ps4.html">Videojuegos PS4</a></li>
+                            <li><a class="dropdown-item" href="./pages/videojuegos-ps5.html">Videojuegos PS5</a></li>
+                            <li><a class="dropdown-item" href="./pages/videojuegos-nint.html">Videojuegos Nintendo</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/contacto.html">Contacto</a>
@@ -61,7 +70,7 @@
                 </ul>
             </div>
         </div>
-    </nav>    
+    </nav>      
     <!-- carusel | linea en scss: 35 -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -205,13 +214,13 @@
         <div class="contenedor-gaming">
             <div class="row">
                 <div class="col-sm">
-                    <img src="./img/gaming-m.jpg" data-aos="fade-right" class="img-fluid" alt="...">
+                    <img src="./img/gaming-m.jpg" data-aos="fade-up" class="img-fluid" alt="...">
                     <h4 class="title-gaming">Ultimas novedades</h4>
                     <p class="sub-title-gaming">Conseguí los títulos más recientes, además de la más amplia variedad de
                         juegos para las consolas de última generación.</p>
                 </div>
                 <div class="col-sm">
-                    <img src="./img/gaming-r.jpg" data-aos="fade-left" class="img-fluid" alt="..">
+                    <img src="./img/gaming-r.jpg" data-aos="fade-up" class="img-fluid" alt="..">
                     <h4 class="title-gaming">Clásicos de otros tiempos</h4>
                     <p class="sub-title-gaming">Reencontrate con esos juegos con los que creciste o viví la experiencia
                         de los 80 y los 90 jugando en las plataformas originales.</p>
@@ -388,13 +397,9 @@
             </div>
         </div>
     </div>
-    <!-- boton de todos los productos | linea en scss: 453 -->
-    <div class="boton-productos d-flex justify-content-center">
-        <a href="./pages/productos.html"><button class="btn btn-secondary">Todos los productos</button></a>
-    </div>
     <!-- boton what's app | linea en scss: nula  -->
     <aside>
-        <a href="https://wa.me/1234567890" class="whatsapp-button animate__animated animate__bounceInUp animate__faster" target="_blank">
+        <a href="https://wa.me/1234567890" class="whatsapp-button animate__animated animate__bounceInUp animate__fast" target="_blank">
             <i class="fa-brands fa-whatsapp fa-2xl" style="color: white;"></i>
         </a>
     </aside>    
