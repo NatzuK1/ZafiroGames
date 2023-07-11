@@ -684,11 +684,23 @@ hr {
 
 // contacto.html
 
-.contacto {
-    height: 400px;
+.contacto{
+    background-color: #f7f7f7;
+}
+
+.contacto2{
+    height: 100px;
     width: 100%;
     background-color: #f7f7f7;
-    border: 1px solid grey;
+}
+
+.title-pages2 {
+    margin-top: 0px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
 }
 
 // difusion.html
