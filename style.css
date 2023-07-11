@@ -130,35 +130,35 @@ hr {
 }
 
 .card__img {
-  background-image: url(img/productos/callisto-ps5.jpg);
+  background-image: url(img/productos/callisto-ps5.webp);
 }
 .card__img:hover {
   transform: scale(0.9);
 }
 
 .card__img-god {
-  background-image: url(img/productos/god-ps5.jpg);
+  background-image: url(img/productos/god-ps5.webp);
 }
 .card__img-god:hover {
   transform: scale(0.9);
 }
 
 .card__img-gta {
-  background-image: url(img/productos/gta-v-ps5.jpg);
+  background-image: url(img/productos/gta-v-ps5.webp);
 }
 .card__img-gta:hover {
   transform: scale(0.9);
 }
 
 .card__img-hog {
-  background-image: url(img/productos/hogwarts-ps5.jpg);
+  background-image: url(img/productos/hogwarts-ps5.webp);
 }
 .card__img-hog:hover {
   transform: scale(0.9);
 }
 
 .card__img-re4 {
-  background-image: url(img/productos/re4-ps5.jpg);
+  background-image: url(img/productos/re4-ps5.webp);
 }
 .card__img-re4:hover {
   transform: scale(0.9);
@@ -222,7 +222,7 @@ hr {
 }
 
 .container-nosotros {
-  background-image: url(img/nosotros.jpg);
+  background-image: url(img/nosotros.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -272,84 +272,84 @@ hr {
 }
 
 .card__img-c-uncha {
-  background-image: url(img/productos/uncharted-collection-ps5.jpg);
+  background-image: url(img/productos/uncharted-collection-ps5.webp);
 }
 .card__img-c-uncha:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-death {
-  background-image: url(img/productos/death-stranding-ps4.jpg);
+  background-image: url(img/productos/death-stranding-ps4.webp);
 }
 .card__img-c-death:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-elden {
-  background-image: url(img/productos/elden-ring-ps5.jpg);
+  background-image: url(img/productos/elden-ring-ps5.webp);
 }
 .card__img-c-elden:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-returnal {
-  background-image: url(img/productos/returnal-ps5.jpg);
+  background-image: url(img/productos/returnal-ps5.webp);
 }
 .card__img-c-returnal:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-gotham {
-  background-image: url(img/productos/gotham-knight-ps5.jpg);
+  background-image: url(img/productos/gotham-knight-ps5.webp);
 }
 .card__img-c-gotham:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-mk1 {
-  background-image: url(img/productos/mortal-kombat-1-ps5.jpg);
+  background-image: url(img/productos/mortal-kombat-1-ps5.webp);
 }
 .card__img-c-mk1:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-atomic {
-  background-image: url(img/productos/atomic-heart-ps4.jpg);
+  background-image: url(img/productos/atomic-heart-ps4.webp);
 }
 .card__img-c-atomic:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-blood {
-  background-image: url(img/productos/bloodborne-goty-ps4.jpg);
+  background-image: url(img/productos/bloodborne-goty-ps4.webp);
 }
 .card__img-c-blood:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-diablo {
-  background-image: url(img/productos/diablo-iv-ps5.jpg);
+  background-image: url(img/productos/diablo-iv-ps5.webp);
 }
 .card__img-c-diablo:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-tlous {
-  background-image: url(img/productos/thelastofus-ps5.jpg);
+  background-image: url(img/productos/thelastofus-ps5.webp);
 }
 .card__img-c-tlous:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-jw2 {
-  background-image: url(img/productos/jurassic-world-evolution-2-ps4.jpg);
+  background-image: url(img/productos/jurassic-world-evolution-2-ps4.webp);
 }
 .card__img-c-jw2:hover {
   transform: scale(0.9);
 }
 
 .card__img-c-ffxvi {
-  background-image: url(img/productos/final-fantasy-xvi-ps5.jpg);
+  background-image: url(img/productos/final-fantasy-xvi-ps5.webp);
 }
 .card__img-c-ffxvi:hover {
   transform: scale(0.9);
@@ -404,7 +404,7 @@ hr {
 }
 
 .card__img-jxboxw {
-  background-image: url(img/accesorios/xbox-classic.jpg);
+  background-image: url(img/accesorios/xbox-classic.webp);
 }
 .card__img-jxboxw:hover {
   transform: scale(0.9);
@@ -413,7 +413,7 @@ hr {
 .card__img-jxboxr {
   height: 100px !important;
   width: 141px !important;
-  background-image: url(img/accesorios/xbox-red.jpg);
+  background-image: url(img/accesorios/xbox-red.webp);
   margin-bottom: 10px;
 }
 .card__img-jxboxr:hover {
@@ -423,7 +423,7 @@ hr {
 .card__img-jps5w {
   height: 100px !important;
   width: 140px !important;
-  background-image: url(img/accesorios/ps5-white.jpg);
+  background-image: url(img/accesorios/ps5-white.webp);
   margin-bottom: 10px;
 }
 .card__img-jps5w:hover {
@@ -433,7 +433,7 @@ hr {
 .card__img-jxboxg {
   height: 100px !important;
   width: 141px !important;
-  background-image: url(img/accesorios/xbox-gl.jpg);
+  background-image: url(img/accesorios/xbox-gl.webp);
   margin-bottom: 5px;
 }
 .card__img-jxboxg:hover {
@@ -443,7 +443,7 @@ hr {
 .card__img-jlogif {
   height: 92px !important;
   width: 140px !important;
-  background-image: url(img/accesorios/logitech-f710.jpg);
+  background-image: url(img/accesorios/logitech-f710.webp);
   margin-bottom: 13px;
 }
 .card__img-jlogif:hover {
@@ -453,7 +453,7 @@ hr {
 .card__img-jps5b {
   height: 92px !important;
   width: 140px !important;
-  background-image: url(img/accesorios/ps5-black.jpg);
+  background-image: url(img/accesorios/ps5-black.webp);
   margin-bottom: 13px;
 }
 .card__img-jps5b:hover {
@@ -463,7 +463,7 @@ hr {
 .card__img-jxboxl {
   height: 100px !important;
   width: 140px !important;
-  background-image: url(img/accesorios/xbox-lunar.jpg);
+  background-image: url(img/accesorios/xbox-lunar.webp);
   margin-bottom: 6px;
 }
 .card__img-jxboxl:hover {
@@ -473,7 +473,7 @@ hr {
 .card__img-jps4b {
   height: 88px !important;
   width: 140px !important;
-  background-image: url(img/accesorios/ps4-black.jpg);
+  background-image: url(img/accesorios/ps4-black.webp);
   margin-bottom: 19px;
 }
 .card__img-jps4b:hover {
@@ -483,7 +483,7 @@ hr {
 .card__img-jxboxb {
   height: 92px !important;
   width: 140px !important;
-  background-image: url(img/accesorios/xbox-blue.jpg);
+  background-image: url(img/accesorios/xbox-blue.webp);
   margin-bottom: 14px;
 }
 .card__img-jxboxb:hover {
@@ -493,7 +493,7 @@ hr {
 .card__img-jlogig {
   height: 87px !important;
   width: 140px !important;
-  background-image: url(img/accesorios/logitech-f310.jpg);
+  background-image: url(img/accesorios/logitech-f310.webp);
   margin-bottom: 18px;
 }
 .card__img-jlogig:hover {
@@ -503,7 +503,7 @@ hr {
 .card__img-cps4 {
   height: 140px !important;
   width: 140px !important;
-  background-image: url(img/consolas/playstation-4.png);
+  background-image: url(img/consolas/playstation-4.webp);
   margin-bottom: 0px;
 }
 .card__img-cps4:hover {
@@ -513,7 +513,7 @@ hr {
 .card__img-cnintendo {
   height: 140px !important;
   width: 140px !important;
-  background-image: url(img/consolas/nintendo-switch.png);
+  background-image: url(img/consolas/nintendo-switch.webp);
   margin-bottom: 0px;
 }
 .card__img-cnintendo:hover {
@@ -523,7 +523,7 @@ hr {
 .card__img-cps5 {
   height: 113px !important;
   width: 140px !important;
-  background-image: url(img/consolas/playstation-5.jpg);
+  background-image: url(img/consolas/playstation-5.webp);
   margin-bottom: 30px;
 }
 .card__img-cps5:hover {
@@ -533,7 +533,7 @@ hr {
 .card__img-cxboxsx {
   height: 138px !important;
   width: 140px !important;
-  background-image: url(img/consolas/xbox-series-x.jpg);
+  background-image: url(img/consolas/xbox-series-x.webp);
   margin-bottom: 3px;
 }
 .card__img-cxboxsx:hover {
@@ -543,7 +543,7 @@ hr {
 .card__img-cxboxss {
   height: 138px !important;
   width: 140px !important;
-  background-image: url(img/consolas/xbox-series-s.jpg);
+  background-image: url(img/consolas/xbox-series-s.webp);
   margin-bottom: 1px;
 }
 .card__img-cxboxss:hover {
@@ -553,7 +553,7 @@ hr {
 .card__img-cps3 {
   height: 118px !important;
   width: 140px !important;
-  background-image: url(img/consolas/playstation-3.png);
+  background-image: url(img/consolas/playstation-3.webp);
   margin-bottom: 20px;
 }
 .card__img-cps3:hover {
@@ -561,37 +561,20 @@ hr {
 }
 
 .card__img-cps2 {
-  height: 140px !important;
+  height: 120px !important;
   width: 140px !important;
-  background-image: url(img/consolas/playstation-2.png);
-  margin-bottom: 20px;
+  background-image: url(img/consolas/playstation-2.webp);
+  margin-bottom: 17px;
 }
 .card__img-cps2:hover {
   transform: scale(0.9);
 }
 
-.title-contacto {
-  margin-bottom: 130px;
-}
-
-.video-background {
-  position: fixed;
-  top: 0;
-  left: 0;
+.contacto {
+  height: 400px;
   width: 100%;
-  height: 100%;
-  z-index: -1;
-  overflow: hidden;
-}
-.video-background video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
+  background-color: #f7f7f7;
+  border: 1px solid grey;
 }
 
 .title-difusion {
@@ -602,28 +585,28 @@ hr {
 }
 
 .card__img-atomic {
-  background-image: url(img/productos/atomic-heart-ps4.jpg);
+  background-image: url(img/productos/atomic-heart-ps4.webp);
 }
 .card__img-atomic:hover {
   transform: scale(0.9);
 }
 
 .card__img-elden {
-  background-image: url(img/productos/elden-ring-ps5.jpg);
+  background-image: url(img/productos/elden-ring-ps5.webp);
 }
 .card__img-elden:hover {
   transform: scale(0.9);
 }
 
 .card__img-dei2 {
-  background-image: url(img/productos/dead-island-2-ps4.jpg);
+  background-image: url(img/productos/dead-island-2-ps4.webp);
 }
 .card__img-dei2:hover {
   transform: scale(0.9);
 }
 
 .card__img-revr2 {
-  background-image: url(img/productos/rer2.jpg);
+  background-image: url(img/productos/rer2.webp);
 }
 .card__img-revr2:hover {
   transform: scale(0.9);
@@ -632,7 +615,7 @@ hr {
 .card__img-cuphead {
   height: 188px !important;
   width: 120px !important;
-  background-image: url(img/productos/cuphead-nintendo.jpg);
+  background-image: url(img/productos/cuphead-nintendo.webp);
 }
 .card__img-cuphead:hover {
   transform: scale(0.9);
@@ -641,7 +624,7 @@ hr {
 .card__img-metroid {
   height: 188px !important;
   width: 120px !important;
-  background-image: url(img/productos/metroid-dread-nintendo.jpg);
+  background-image: url(img/productos/metroid-dread-nintendo.webp);
 }
 .card__img-metroid:hover {
   transform: scale(0.9);
@@ -650,7 +633,7 @@ hr {
 .card__img-sonic {
   height: 188px !important;
   width: 120px !important;
-  background-image: url(img/productos/sonic-nintendo.jpg);
+  background-image: url(img/productos/sonic-nintendo.webp);
 }
 .card__img-sonic:hover {
   transform: scale(0.9);
@@ -659,21 +642,21 @@ hr {
 .card__img-smpt {
   height: 188px !important;
   width: 120px !important;
-  background-image: url(img/productos/mario-party.jpg);
+  background-image: url(img/productos/mario-party.webp);
 }
 .card__img-smpt:hover {
   transform: scale(0.9);
 }
 
 .card__img-juw2 {
-  background-image: url(img/productos/jurassic-world-evolution-2-ps4.jpg);
+  background-image: url(img/productos/jurassic-world-evolution-2-ps4.webp);
 }
 .card__img-juw2:hover {
   transform: scale(0.9);
 }
 
 .card__img-mk1 {
-  background-image: url(img/productos/mortal-kombat-1-ps5.jpg);
+  background-image: url(img/productos/mortal-kombat-1-ps5.webp);
 }
 .card__img-mk1:hover {
   transform: scale(0.9);
@@ -682,21 +665,21 @@ hr {
 .card__img-bay3 {
   height: 188px !important;
   width: 120px !important;
-  background-image: url(img/productos/bayonetta-3-nintendo.jpg);
+  background-image: url(img/productos/bayonetta-3-nintendo.webp);
 }
 .card__img-bay3:hover {
   transform: scale(0.9);
 }
 
 .card__img-blood {
-  background-image: url(img/productos/bloodborne-goty-ps4.jpg);
+  background-image: url(img/productos/bloodborne-goty-ps4.webp);
 }
 .card__img-blood:hover {
   transform: scale(0.9);
 }
 
 .card__img-deats {
-  background-image: url(img/productos/death-stranding-ps4.jpg);
+  background-image: url(img/productos/death-stranding-ps4.webp);
 }
 .card__img-deats:hover {
   transform: scale(0.9);
@@ -705,14 +688,14 @@ hr {
 .card__img-pokec {
   height: 188px !important;
   width: 120px !important;
-  background-image: url(img/productos/poke-escarlata-nintendo.jpg);
+  background-image: url(img/productos/poke-escarlata-nintendo.webp);
 }
 .card__img-pokec:hover {
   transform: scale(0.9);
 }
 
 .card__img-wtlg {
-  background-image: url(img/productos/watchdogslegion-ps4.jpg);
+  background-image: url(img/productos/watchdogslegion-ps4.webp);
 }
 .card__img-wtlg:hover {
   transform: scale(0.9);
@@ -721,119 +704,119 @@ hr {
 .card__img-btf1 {
   height: 180px !important;
   width: 144px !important;
-  background-image: url(img/productos/battlefiel-1-ps4.jpg);
+  background-image: url(img/productos/battlefiel-1-ps4.webp);
 }
 .card__img-btf1:hover {
   transform: scale(0.9);
 }
 
 .card__img-codv {
-  background-image: url(img/productos/cod-vanguard-ps4.jpg);
+  background-image: url(img/productos/cod-vanguard-ps4.webp);
 }
 .card__img-codv:hover {
   transform: scale(0.9);
 }
 
 .card__img-diiv4 {
-  background-image: url(img/productos/diablo-iv-ps4.jpg);
+  background-image: url(img/productos/diablo-iv-ps4.webp);
 }
 .card__img-diiv4:hover {
   transform: scale(0.9);
 }
 
 .card__img-dyg4 {
-  background-image: url(img/productos/dying-light-2-ps4.jpg);
+  background-image: url(img/productos/dying-light-2-ps4.webp);
 }
 .card__img-dyg4:hover {
   transform: scale(0.9);
 }
 
 .card__img-edng {
-  background-image: url(img/productos/elden-ring-ps4.jpg);
+  background-image: url(img/productos/elden-ring-ps4.webp);
 }
 .card__img-edng:hover {
   transform: scale(0.9);
 }
 
 .card__img-far4 {
-  background-image: url(img/productos/farcry-4-ps4.jpg);
+  background-image: url(img/productos/farcry-4-ps4.webp);
 }
 .card__img-far4:hover {
   transform: scale(0.9);
 }
 
 .card__img-god4 {
-  background-image: url(img/productos/god-ps4.jpg);
+  background-image: url(img/productos/god-ps4.webp);
 }
 .card__img-god4:hover {
   transform: scale(0.9);
 }
 
 .card__img-gtav4 {
-  background-image: url(img/productos/gta-v-ps4.jpg);
+  background-image: url(img/productos/gta-v-ps4.webp);
 }
 .card__img-gtav4:hover {
   transform: scale(0.9);
 }
 
 .card__img-death5 {
-  background-image: url(img/productos/death-stranding-ps5.jpg);
+  background-image: url(img/productos/death-stranding-ps5.webp);
 }
 .card__img-death5:hover {
   transform: scale(0.9);
 }
 
 .card__img-diaiv4 {
-  background-image: url(img/productos/diablo-iv-ps5.jpg);
+  background-image: url(img/productos/diablo-iv-ps5.webp);
 }
 .card__img-diaiv4:hover {
   transform: scale(0.9);
 }
 
 .card__img-ffxvi5 {
-  background-image: url(img/productos/final-fantasy-xvi-ps5.jpg);
+  background-image: url(img/productos/final-fantasy-xvi-ps5.webp);
 }
 .card__img-ffxvi5:hover {
   transform: scale(0.9);
 }
 
 .card__img-gthm {
-  background-image: url(img/productos/gotham-knight-ps5.jpg);
+  background-image: url(img/productos/gotham-knight-ps5.webp);
 }
 .card__img-gthm:hover {
   transform: scale(0.9);
 }
 
 .card__img-grt7 {
-  background-image: url(img/productos/gran-turismo-7-ps5.jpg);
+  background-image: url(img/productos/gran-turismo-7-ps5.webp);
 }
 .card__img-grt7:hover {
   transform: scale(0.9);
 }
 
 .card__img-mk15 {
-  background-image: url(img/productos/mortal-kombat-1-ps5.jpg);
+  background-image: url(img/productos/mortal-kombat-1-ps5.webp);
 }
 .card__img-mk15:hover {
   transform: scale(0.9);
 }
 
 .card__img-retun5 {
-  background-image: url(img/productos/returnal-ps5.jpg);
+  background-image: url(img/productos/returnal-ps5.webp);
 }
 .card__img-retun5:hover {
   transform: scale(0.9);
 }
 
 .card__img-tlous5 {
-  background-image: url(img/productos/thelastofus-ps5.jpg);
+  background-image: url(img/productos/thelastofus-ps5.webp);
 }
 .card__img-tlous5:hover {
   transform: scale(0.9);
 }
 
 .card__img-uncha5 {
-  background-image: url(img/productos/uncharted-collection-ps5.jpg);
+  background-image: url(img/productos/uncharted-collection-ps5.webp);
 }
 .card__img-uncha5:hover {
   transform: scale(0.9);
@@ -842,7 +825,7 @@ hr {
 .card__img-mk1n {
   height: 188px !important;
   width: 120px !important;
-  background-image: url(img/productos/mk1-nintendo.jpg);
+  background-image: url(img/productos/mk1-nintendo.webp);
 }
 .card__img-mk1n:hover {
   transform: scale(0.9);
@@ -851,7 +834,7 @@ hr {
 .card__img-pokep {
   height: 188px !important;
   width: 120px !important;
-  background-image: url(img/productos/poke-purpura-nintendo.jpg);
+  background-image: url(img/productos/poke-purpura-nintendo.webp);
 }
 .card__img-pokep:hover {
   transform: scale(0.9);
@@ -860,7 +843,7 @@ hr {
 .card__img-sonm {
   height: 188px !important;
   width: 120px !important;
-  background-image: url(img/productos/sonic-m-nintendo.jpg);
+  background-image: url(img/productos/sonic-m-nintendo.webp);
 }
 .card__img-sonm:hover {
   transform: scale(0.9);

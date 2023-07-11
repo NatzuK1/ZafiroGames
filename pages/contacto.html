@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,6 +32,7 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
     <!-- navbar | linea en scss: 17 -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -48,7 +50,8 @@
                         <a class="nav-link" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="productosDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Productos
                         </a>
                         <ul class="dropdown-menu bg-zafiro" aria-labelledby="productosDropdown">
@@ -56,7 +59,8 @@
                             <li><a class="dropdown-item" href="../pages/consolas.html">Consolas</a></li>
                             <li><a class="dropdown-item" href="../pages/videojuegos-ps4.html">Videojuegos PS4</a></li>
                             <li><a class="dropdown-item" href="../pages/videojuegos-ps5.html">Videojuegos PS5</a></li>
-                            <li><a class="dropdown-item" href="../pages/videojuegos-nint.html">Videojuegos Nintendo</a></li>
+                            <li><a class="dropdown-item" href="../pages/videojuegos-nint.html">Videojuegos Nintendo</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -68,31 +72,33 @@
                 </ul>
             </div>
         </div>
-    </nav> 
-    <!-- contenedor contacto | linea en scss: -->
+    </nav>
+    <!-- contenedor contacto | linea en scss: nula -->
+    <div class="container-fluid text-center">
+        <h1 class="title-pages">Contacto</h1>
+    </div>    
     <div class="container" data-aos="zoom-in">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <h1 class="title-contacto">Contacto</h1>
                 <form>
                     <div class="mb-3">
-                        <label for="nombre" class="form-label" style="color: #ffffff;">Nombre</label>
+                        <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
                     </div>
                     <div class="mb-3">
-                        <label for="apellido" class="form-label" style="color: #ffffff;">Apellido</label>
+                        <label for="apellido" class="form-label">Apellido</label>
                         <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label " style="color: #ffffff;">Email</label>
+                        <label for="email" class="form-label ">Email</label>
                         <input type="email" class="form-control" id="email" placeholder="Ingresa tu email">
                     </div>
                     <div class="mb-3">
-                        <label for="telefono" class="form-label" style="color: #ffffff;">Telefono</label>
+                        <label for="telefono" class="form-label">Telefono</label>
                         <input type="text" class="form-control" id="telefono" placeholder="Ingresa tu número">
                     </div>
                     <div class="mb-3">
-                        <label for="mensaje" class="form-label" style="color: #ffffff;">Mensaje</label>
+                        <label for="mensaje" class="form-label">Mensaje</label>
                         <textarea class="form-control" id="mensaje" rows="5"
                             placeholder="Ingresa tu mensaje"></textarea>
                     </div>
@@ -103,19 +109,38 @@
             </div>
         </div>
     </div>
-    <!-- video realizado por mi =) -->
-    <div class="video-background">
-        <video autoplay loop muted>
-            <source src="../video/video.mp4" type="video/mp4">
-        </video>
+    <!-- contenedor ubicación | linea en scss: 685 -->
+    <div class="contacto d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-sm">
+                    <h4 class="title-gaming">Datos de contacto</h4>
+                    <p class="sub-title-gaming">
+                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i> Catamarca 1913 - Alta Córdoba
+                        <br>
+                        <i class="fa-solid fa-square-phone" style="color: #000000;"></i> 3513421968
+                    </p>
+                </div>
+                <div class="col-sm offset-sm-2">
+                    <h4 class="title-gaming">Datos de ubicación</h4>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.1690848699136!2d-64.16183402491141!3d-31.409467195915976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a87c23e76b%3A0x8983339cf58973a2!2sCatamarca%201913%2C%20X5004FMC%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1689043476379!5m2!1ses!2sar"
+                            width="290" height="290" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- boton what's app | linea en scss: nula  -->
     <aside>
-        <a href="https://wa.me/1234567890" class="whatsapp-button animate__animated animate__bounceInUp animate__faster" target="_blank">
+        <a href="https://wa.me/1234567890" class="whatsapp-button animate__animated animate__bounceInUp animate__faster"
+            target="_blank">
             <i class="fa-brands fa-whatsapp fa-2xl" style="color: white;"></i>
         </a>
-    </aside>      
-    <!-- footer final de pagina | linea en scss: 460 -->
+    </aside>
+    <!-- footer final de pagina | linea en scss: 1048 -->
     <footer class="text-white py-4">
         <div class="container-fluid footer-f d-flex justify-content-center align-items-center text-center">
             <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i></a>
@@ -136,9 +161,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
-            once: true, 
+            once: true,
             disable: false
         });
     </script>
 </body>
+
 </html>
