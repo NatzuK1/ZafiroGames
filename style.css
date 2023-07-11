@@ -589,6 +589,10 @@ hr {
   background-color: #f7f7f7;
 }
 
+.content {
+  flex: 1 0 auto;
+}
+
 .title-difusion {
   font-size: 16px;
   padding-bottom: 10px;
