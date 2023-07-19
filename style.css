@@ -12,6 +12,7 @@
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-size: 13px;
+  padding: 10px 15px;
   font-family: "Roboto", sans-serif;
 }
 .navbar .nav-item a:hover {
