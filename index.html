@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="¡Encuentra los mejores videojuegos para PS4, PS5, Xbox y Nintendo Switch en nuestra tienda! Amplia selección de títulos, desde los clásicos hasta los últimos lanzamientos!">
-    <meta name="keywords" content="Venta de videojuegos,Videojuegos PS4,Videojuegos PS5,Videojuegos Xbox,Videojuegos Nintendo Switch, Comprar videojuegos,Tienda de videojuegos,Juegos para consolas,Últimos lanzamientos,Clásicos de videojuegos">    
+    <meta name="description"
+        content="¡Encuentra los mejores videojuegos para PS4, PS5, Xbox y Nintendo Switch en nuestra tienda! Amplia selección de títulos, desde los clásicos hasta los últimos lanzamientos!">
+    <meta name="keywords"
+        content="Venta de videojuegos,Videojuegos PS4,Videojuegos PS5,Videojuegos Xbox,Videojuegos Nintendo Switch, Comprar videojuegos,Tienda de videojuegos,Juegos para consolas,Últimos lanzamientos,Clásicos de videojuegos">
     <title>Zafiro Games | Tienda Gamer</title>
-    <link rel="icon" href="./img/icons.ico"> 
+    <link rel="icon" href="./img/icons.ico">
     <!-- font nav bar -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,45 +35,51 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"> <!-- archivo css -->
 </head>
-<body>   
-    <!-- navbar | linea en scss: 17 -->    
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./img/logo.png" alt="logo de página" width="150" height="50" id="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu bg-zafiro" aria-labelledby="productosDropdown">
-                            <li><a class="dropdown-item" href="./pages/accesorios.html">Accesorios</a></li>
-                            <li><a class="dropdown-item" href="./pages/consolas.html">Consolas</a></li>
-                            <li><a class="dropdown-item" href="./pages/videojuegos-ps4.html">Videojuegos PS4</a></li>
-                            <li><a class="dropdown-item" href="./pages/videojuegos-ps5.html">Videojuegos PS5</a></li>
-                            <li><a class="dropdown-item" href="./pages/videojuegos-nint.html">Videojuegos Nintendo</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/difusion.html">Lista de difusión</a>
-                    </li>
-                </ul>
+<body>
+    <!-- navbar | linea en scss: 19 -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo.png" alt="logo de página" width="150" height="50" id="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="productosDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu bg-zafiro" aria-labelledby="productosDropdown">
+                                <li><a class="dropdown-item" href="./pages/accesorios.html">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="./pages/consolas.html">Consolas</a></li>
+                                <li><a class="dropdown-item" href="./pages/videojuegos-ps4.html">Videojuegos PS4</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./pages/videojuegos-ps5.html">Videojuegos PS5</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./pages/videojuegos-nint.html">Videojuegos
+                                        Nintendo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/difusion.html">Lista de difusión</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>      
-    <!-- carusel | linea en scss: 51 -->
+        </nav>
+    </header>
+    <!-- carusel | linea en scss: 53 -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -82,19 +90,23 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <a href="#"><img src="./img/slider/slider-re4.webp" alt="imagen de resident evil 4" class="d-block w-100"></a>
+                <a href="#"><img src="./img/slider/slider-re4.webp" alt="imagen de resident evil 4"
+                        class="d-block w-100"></a>
             </div>
             <div class="carousel-item">
                 <a href="#"><img src="./img/slider/slider-gtav.webp" alt="imagen de gta v" class="d-block w-100"></a>
             </div>
             <div class="carousel-item">
-                <a href="#"><img src="./img/slider/slider-diablo.webp" alt="imagen de diablo iv" class="d-block w-100"></a>
+                <a href="#"><img src="./img/slider/slider-diablo.webp" alt="imagen de diablo iv"
+                        class="d-block w-100"></a>
             </div>
             <div class="carousel-item">
-                <a href="#"><img src="./img/slider/slider-spiderman.webp" alt="imagen de spiderman" class="d-block w-100"></a>
+                <a href="#"><img src="./img/slider/slider-spiderman.webp" alt="imagen de spiderman"
+                        class="d-block w-100"></a>
             </div>
             <div class="carousel-item">
-                <a href="#"><img src="./img/slider/slider-mw.webp" alt="imagen de call of duty" class="d-block w-100"></a>
+                <a href="#"><img src="./img/slider/slider-mw.webp" alt="imagen de call of duty"
+                        class="d-block w-100"></a>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -104,7 +116,7 @@
             <i class="fa-solid fa-caret-right fa-2xl" style="color: #f7f7f7;"></i>
         </button>
     </div>
-    <!-- contenedor de categorias principales | linea en scss: 69 -->
+    <!-- contenedor de categorias principales | linea en scss: 71 -->
     <section>
         <div class="container categoria-p">
             <h1 class="title-categoria">Categorías Principales</h1>
@@ -123,7 +135,7 @@
             </div>
         </div>
     </section>
-    <!-- contenedor de información | linea en scss: 104 -->
+    <!-- contenedor de información | linea en scss: 106 -->
     <div class="container-fluid informacion text-center">
         <div class="row">
             <div class="col-sm">
@@ -143,10 +155,9 @@
             </div>
         </div>
     </div>
-    <!-- Contenedor de Videojuegos destacados | linea en css: 129 -->
+    <!-- Contenedor de Videojuegos destacados | linea en css: 131 -->
     <div class="container-fluid text-center">
-        <h2 class="title-dest">Videojuegos Destacados</h2>
-        <hr>
+        <h2 class="title-dest mb-4 mt-2" style="border-bottom: 1px solid #BFBFBF;">Videojuegos Destacados</h2>
     </div>
     <div class="container-fluid" data-aos="fade-up">
         <div class="container">
@@ -209,7 +220,7 @@
             </div>
         </div>
     </div>
-    <!-- contenedor informatico sobre material | linea en scss: 247 -->
+    <!-- contenedor informatico sobre material | linea en scss: 245 -->
     <div class="container">
         <div class="contenedor-gaming">
             <div class="row">
@@ -228,36 +239,37 @@
             </div>
         </div>
     </div>
-    <!-- contenedor de imagen con información de nosotros | linea en scss: 266 -->
+    <!-- contenedor de imagen con información de nosotros | linea en scss: 264 -->
     <div class="container-nosotros" data-aos="fade-up">
         <h4 class="text-nosotros text-center"> Zafiro Games es un negocio familiar atendido y administrado <br>por sus
             dueños con más de 10 años de trayectoria.</h4>
-        <a href="./pages/difusion.html"><button type="button" class="btn btn-light mx-auto d-block">Sobre
-                nosotros</button></a>
+        <div class="text-center mt-3">
+            <a href="./pages/difusion.html" class="btn btn-light">Sobre nosotros</a>
+        </div>
     </div>
     <!-- contenedor donde muestra los titulos (se oculta en celular) -->
     <div class="container text-center d-none d-sm-block" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div class="row align-items-start">
             <div class="col">
                 <h4 class="title-dest-2">Productos recientes</h4>
-                <hr class="line-title-dest-2">
+                <div class="line-title-dest-2 mb-4"></div>
             </div>
             <div class="col">
                 <h4 class="title-dest-2">Productos en oferta</h4>
-                <hr class="line-title-dest-2">
+                <div class="line-title-dest-2 mb-4"></div>
             </div>
             <div class="col">
                 <h4 class="title-dest-2">Productos nuevos</h4>
-                <hr class="line-title-dest-2">
+                <div class="line-title-dest-2 mb-4"></div>
             </div>
         </div>
     </div>
     <!-- contenedor titulo de productos (se muestra en celular) -->
     <div class="container-fluid text-center d-block d-sm-none">
         <h4 class="title-dest">Productos Destacados</h4>
-        <hr>
+        <div class="line-title-dest-2 mb-4"></div>
     </div>
-    <!-- contenedor de productos en pagina principal | linea en scss: 296 -->
+    <!-- contenedor de productos en pagina principal | linea en scss: 294 -->
     <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div class="row align-items-center">
             <div class="col-sm d-flex justify-content-center">
@@ -397,18 +409,22 @@
             </div>
         </div>
     </div>
-    <!-- boton what's app | linea en scss: 1149 -->
+    <!-- boton what's app | linea en scss: 1160 -->
     <aside>
-        <a href="https://wa.me/1234567890" class="whatsapp-button animate__animated animate__bounceInUp animate__fast" target="_blank">
+        <a href="https://wa.me/1234567890" class="whatsapp-button animate__animated animate__bounceInUp animate__fast"
+            target="_blank">
             <i class="fa-brands fa-whatsapp fa-2xl" style="color: white;"></i>
         </a>
-    </aside>    
-    <!-- footer final de pagina | linea en scss: 1065 -->
+    </aside>
+    <!-- footer final de pagina | linea en scss: 1066 -->
     <footer class="text-white py-4">
         <div class="container-fluid footer-f d-flex justify-content-center align-items-center text-center">
-            <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-xl"
+                    style="color: #ffffff;"></i></a>
+            <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter fa-xl"
+                    style="color: #ffffff;"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-xl"
+                    style="color: #ffffff;"></i></a>
         </div>
         <div class="container text-center">
             <h6 class="title-footer text-white">Copyright © 2023 - Zafiro Games.</h6>
