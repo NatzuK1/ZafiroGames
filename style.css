@@ -574,7 +574,6 @@ section .nav-item a:hover {
 }
 
 .contacto {
-  background-color: #f7f7f7;
   padding-top: 100px;
 }
 
@@ -584,7 +583,6 @@ section .nav-item a:hover {
   padding-bottom: 10px;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  background-color: #f7f7f7;
 }
 
 .content {
